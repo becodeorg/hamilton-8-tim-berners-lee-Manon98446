@@ -1,1 +1,38 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    max-width: 42.5%;
+    margin: auto;
+    align-self: center;
+    background-color: rgb(218, 216, 216);
+}
+section{
+    background-color: white;
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    margin: 30px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.tim_berners_lee img{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border: 3px solid rgb(212, 211, 211);
+}
+h1{
+    color:red;
+    font-weight:900;
+    font-size: 30px; 
+}
+section.icons{
+    display:flex ;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+
 
