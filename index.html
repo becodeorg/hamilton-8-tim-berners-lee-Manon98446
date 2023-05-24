@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <style> @import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Open+Sans:wght@300;400&family=Poppins&display=swap'); </style>        
+    <style> @import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,800&family=Poppins&display=swap');</style>
+        
     <script src="https://kit.fontawesome.com/b354d51934.js" crossorigin="anonymous"></script>
     <link href="style.css" rel="stylesheet">
     <meta charset="UTF-8">
@@ -14,34 +15,40 @@
         <img src="images/tim_berners_lee.jpg" alt="picture of Tim Berners Lee">
         <h1>Tim Berners Lee</h1>
         <h2>Inventor of HTML</h2>
-        <p> Tim Berners Lee is the <strong>inventor</strong> of the Web. 
+        <p class="intro_tim"> Tim Berners Lee is the <strong>inventor</strong> of the Web. 
             In 1989, Tim was working in a computing services section of CERN when he came up with the concept; 
             at the time he had no idea that it would be implemented on such an <strong>enormous scale.</strong>
         </p>
-        <button type="button">See for yourself</button>
+        <button type="button"><a class=button href="https://www.w3schools.com/csS/css3_buttons.asp">See for yourself</a></button>
     </section>
-    <section class="icons">
-        <a href=""><i class="fa-brands fa-facebook-f"></i>Facebook</a>
-        <a href=""><i class="fa-brands fa-linkedin-in"></i>Linkedin</a>
-        <a href=""><i class="fa-brands fa-twitter"></i>Twitter</a>
+    <section class="all_icons">
+        <a href="" class="icons" ><i class="fa-brands fa-facebook-f"></i>Facebook</a>
+        <a href=""class="icons"><i class="fa-brands fa-linkedin-in"></i>Linkedin</a>
+        <a href=""class="icons"><i class="fa-brands fa-twitter"></i>Twitter</a>
     </section>
     <section class="movies">
         <h2>His favorite movies</h2>
         <section class="movie_cover">
             <img src="images/space_odyssey.jpg" alt="cover of the movie Space Odyssey">
-            <h3>2001 - Space Odyssey</h3>
-            <p>Humanity finds a mysterious, obviously artificial, object buried beneath the Lunar surface and, with the intelligent computer H.A.L. 9000, sets off on a quest.</p>
+            <section class="movie_description">
+                <h3>2001 - Space Odyssey</h3>
+                <p>Humanity finds a mysterious, obviously artificial, object buried beneath the Lunar surface and, with the intelligent computer H.A.L. 9000, sets off on a quest.</p>
+            </section>
         </section>
         <section class="movie_cover"> 
             <img src="images/mister_hulot.jpg" alt="cover of the movie Monsieur Hulot">
-            <h3>Monsieur Hulot</h3>
-            <p>Monsieur Hulot comes to a beachside hgotel for a vacation, where he accidentally (but good-naturedly) causes havoc.</p>
+            <section class="movie_description">
+                <h3>Monsieur Hulot</h3>
+                <p>Monsieur Hulot comes to a beachside hgotel for a vacation, where he accidentally (but good-naturedly) causes havoc.</p>
+            </section>
         </section>
         <section class="movie_cover">
             <img src="images/alien.jpg" alt="cover of the movie Alien">
-            <h3>Alien</h3>
-            <p>The commercial vessel Nostromo receives a distress call from an unexplored planet. After searching for survivors, the crew heads home only to realize that a deadly bioform has joined them.</p>
-        </section>
+            <section class="movie_description">
+                <h3>Alien</h3>
+                <p>The commercial vessel Nostromo receives a distress call from an unexplored planet. After searching for survivors, the crew heads home only to realize that a deadly bioform has joined them.</p>
+                </section>
+            </section>
     </section>
 </body>
 </html>

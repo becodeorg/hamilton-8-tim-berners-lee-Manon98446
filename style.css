@@ -3,36 +3,98 @@ body{
     max-width: 42.5%;
     margin: auto;
     align-self: center;
-    background-color: rgb(218, 216, 216);
+    background-color:#ebebeb;
+    color: #817a83;
 }
-section{
+body>section{
     background-color: white;
-    padding:10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: justify;
-    margin: 30px;
+    margin: 20px;
     border-radius: 5px;
     font-size: 14px;
+    box-shadow: 2px 2px #ebebeb;
 }
 .tim_berners_lee img{
     width: 110px;
     height: 110px;
     border-radius: 50%;
-    border: 3px solid rgb(212, 211, 211);
+    border: 3px solid #ebebeb;
+    margin-top: 20px;
 }
+.tim_berners_lee h2{
+    font-size: 20px;
+    margin:0px
+}
+
 h1{
-    color:red;
-    font-weight:900;
-    font-size: 30px; 
+    color:#dd5555;
+    font-weight:800;
+    font-size: 23px; 
 }
-section.icons{
+section.all_icons{
     display:flex ;
     flex-direction: row;
     justify-content: space-evenly;
+    padding:55px 70px;
+}
+
+a.icons{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    align-items: center;
+    font-size: 16px;
+    color: #d1cfcf;
+}
+i{
+    font-size: 25px;
 }
 
 
+
+.movie_cover{
+    display: flex;
+    flex-direction: row;
+    margin:20px 
+
+}
+.movie_cover>img{
+    width:20%;
+    height:20%;
+    align-self: center;
+}
+.movie_description{
+    margin-left:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h3{
+    font-size:16px
+}
+.intro_tim{
+    margin: 20px 20px 10px 20px;
+}
+button, .button{
+    background-color: #dd5555;
+    color: white;
+    padding:10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+    color: white;
+}
+.movies h2{
+    font-size: 20px;
+    margin:35px 0px 0px 0px;
+}
 
 
