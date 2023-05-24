@@ -39,6 +39,7 @@ section.all_icons{
     flex-direction: row;
     justify-content: space-evenly;
     padding:55px 70px;
+    color:#d1cfcf;
 }
 
 a.icons{
@@ -49,8 +50,12 @@ a.icons{
     font-size: 16px;
     color: #d1cfcf;
 }
+.icons{
+    color: #d1cfcf;
+}
 i{
     font-size: 25px;
+    color: #d1cfcf;
 }
 
 
@@ -88,7 +93,7 @@ button, .button{
     font-weight: 600;
     text-decoration: none;
 }
-a:visited{
+a.button:visited{
     text-decoration: none;
     color: white;
 }
